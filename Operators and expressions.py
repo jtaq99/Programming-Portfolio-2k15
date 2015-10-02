@@ -4,5 +4,5 @@ while True:
 	days = days % 30
 	print "Months = %d Days = %d" % (months, days)
 	
-	if (raw_input("Enter another? ") == "n"):
+	if (raw_input("Enter another? ") == "no"):
 		break
